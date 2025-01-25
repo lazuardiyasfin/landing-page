@@ -148,3 +148,37 @@ h2 {
     color: #6d747d;
     margin-top: 8px;
 }
+
+/* quote */
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 128px;
+    padding-bottom: 100px;
+    padding-left: 36px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 780px;
+}
+
+.quote-source {
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 780px;
+    width: 100%;
+    text-align: end;
+    box-sizing: border-box;
+    padding-right: 36px;
+}
