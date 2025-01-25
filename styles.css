@@ -101,3 +101,50 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+/* info */
+
+.info {
+    background-color: #ffffff;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info-container {
+    box-sizing: border-box;
+    padding-top: 48px;
+    padding-bottom: 110px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 0;
+}
+
+.card-container {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.card {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image-placeholder {
+    height: 160px;
+    width: 160px;
+    border: solid #3882f6 5px;
+    border-radius: 15px;
+}
+
+.card-subtext {
+    color: #6d747d;
+    margin-top: 8px;
+}
