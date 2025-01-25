@@ -182,3 +182,33 @@ h2 {
     box-sizing: border-box;
     padding-right: 36px;
 }
+
+/* call-to-action */
+
+.cta {
+    background-color: #ffffff;
+}
+
+.cta-container {
+    padding: 96px 0;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    border-radius: 7px;
+    padding: 48px 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cta-main-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-box > .sign-up-button {
+    border: solid #f9faf8 2px;
+}
+
