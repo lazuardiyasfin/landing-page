@@ -212,3 +212,15 @@ h2 {
     border: solid #f9faf8 2px;
 }
 
+/* footer */
+
+.footer {
+    background-color: #1f2937;
+}
+
+.footer-container {
+    padding: 42px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
